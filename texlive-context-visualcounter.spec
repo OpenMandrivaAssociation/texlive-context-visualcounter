@@ -31,23 +31,9 @@ mkdir -p %{buildroot}%{_texmfdistdir}
 cp -a * %{buildroot}%{_texmfdistdir}
 
 %files
-%{_texmfdistdir}/source
-%doc %{_texmfdistdir}/source/context
-%doc %{_texmfdistdir}/source/context/third
 %doc %{_texmfdistdir}/source/context/third/visualcounter
-%doc %{_texmfdistdir}/source/context/third/visualcounter/visualcounter.tex
-%doc %{_texmfdistdir}/source/context/third/visualcounter/p-documentation.tex
-%{_texmfdistdir}/tex
-%{_texmfdistdir}/tex/context
-%{_texmfdistdir}/tex/context/third
 %{_texmfdistdir}/tex/context/third/visualcounter
-%{_texmfdistdir}/tex/context/third/visualcounter/t-visualcounter.mkvi
-%{_texmfdistdir}/doc
-%doc %{_texmfdistdir}/doc/context
-%doc %{_texmfdistdir}/doc/context/third
 %doc %{_texmfdistdir}/doc/context/third/visualcounter
-%doc %{_texmfdistdir}/doc/context/third/visualcounter/visualcounter.pdf
-%doc %{_texmfdistdir}/doc/context/third/visualcounter/VERSION
 
 %post -p %{_sbindir}/texlive.post
 
