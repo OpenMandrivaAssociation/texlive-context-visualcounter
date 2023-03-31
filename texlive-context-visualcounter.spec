@@ -1,6 +1,6 @@
 Name:		texlive-context-visualcounter
 Version:	47085
-Release:	1
+Release:	2
 Summary:	Visual display of ConTeXt counters
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/context-visualcounter
